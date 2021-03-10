@@ -1,0 +1,14 @@
+D, [2021-03-10T09:57:42.189323 #12349] DEBUG -- :   [1m[35m (1.3ms)[0m  [1m[35mSET NAMES utf8mb4 COLLATE utf8mb4_general_ci,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2021-03-10T09:57:42.215311 #12349] DEBUG -- :   [1m[35m (1.2ms)[0m  [1m[34mSELECT GET_LOCK('5927355790851491325', 0)[0m
+D, [2021-03-10T09:57:42.223939 #12349] DEBUG -- :   [1m[35m (1.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+D, [2021-03-10T09:57:42.228873 #12349] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (1.4ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+D, [2021-03-10T09:57:42.235081 #12349] DEBUG -- :   [1m[35m (1.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-03-10T09:57:42.237087 #12349] DEBUG -- :   [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2021-03-10T09:57:42.238504 #12349] DEBUG -- :   [1m[35m (1.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('5927355790851491325')[0m
+D, [2021-03-10T11:18:58.201032 #13782] DEBUG -- :   [1m[35m (1.5ms)[0m  [1m[35mSET NAMES utf8mb4 COLLATE utf8mb4_general_ci,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2021-03-10T11:18:58.227557 #13782] DEBUG -- :   [1m[35m (1.1ms)[0m  [1m[34mSELECT GET_LOCK('5927355790851491325', 0)[0m
+D, [2021-03-10T11:18:58.236165 #13782] DEBUG -- :   [1m[35m (1.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+D, [2021-03-10T11:18:58.241271 #13782] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (1.2ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+D, [2021-03-10T11:18:58.247625 #13782] DEBUG -- :   [1m[35m (1.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-03-10T11:18:58.249694 #13782] DEBUG -- :   [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2021-03-10T11:18:58.251022 #13782] DEBUG -- :   [1m[35m (1.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('5927355790851491325')[0m
