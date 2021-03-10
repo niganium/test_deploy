@@ -32,3 +32,4 @@
 
 /.env
 /vendor/bundle/
+/repo
